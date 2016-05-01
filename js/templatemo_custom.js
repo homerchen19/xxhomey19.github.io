@@ -45,7 +45,6 @@ jQuery(document).ready(function($) {
 	});
 
 
-
 	$('a.toggle-nav').click(function(){
 		$('.menu-responsive').slideToggle();
 	});
@@ -53,9 +52,6 @@ jQuery(document).ready(function($) {
 	$('.menu-responsive a').click(function() {
 		$('.menu-responsive').slideToggle().hide();
 	});
-
-
-
 
 });
 
@@ -71,7 +67,7 @@ function loadScript() {
 	function initialize() {
 	    var mapOptions = {
 	      zoom: 15,
-	      center: new google.maps.LatLng(16.8496189,96.1288854)
+	      center: new google.maps.LatLng(22.997057, 120.220862)
 	    };
 	    var map = new google.maps.Map(document.getElementById('map_canvas'),  mapOptions);
 	}
