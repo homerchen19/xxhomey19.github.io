@@ -347,6 +347,18 @@ h2.welcome-title {
     animation-delay: 2.7s;
 }
 
+.project-item.eight {
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.project-item.nine {
+    -moz-animation-delay: 3.3s;
+    -webkit-animation-delay: 3.3s;
+    animation-delay: 3.3s;
+}
+
 .our-story {
     padding: 0 50px;
     margin-top: 30px;
